@@ -8,6 +8,7 @@ body {
         background-color: green;
         font-size: 30px;
         display: inline-block;
+        flex-direction: column;
     }
 }
 
@@ -16,5 +17,6 @@ body {
         background-color: blue;
         font-size: 80px;  
         display: inline-block;
+        flex-direction: column;
     }
 }
