@@ -1,22 +1,13 @@
 body {
         background-color: red;
-        padding: 20px;
-        width: 100%;
+        display: block;
     }
 
 @media only screen and (min-width: 300px) {
     body {
         background-color: green;
         font-size: 30px;
-    }
-    .col-1 {
-        width: 66%;
-    }
-    .col-2 {
-        width: 33%;
-    }
-    .col-3 {
-        width: 100%;
+        display: inline-block;
     }
 }
 
@@ -24,8 +15,6 @@ body {
     body {
         background-color: blue;
         font-size: 80px;  
-    }
-    .col-1, .col-2, .col-3 {
-        width: 33%;
+        display: inline-block;
     }
 }
