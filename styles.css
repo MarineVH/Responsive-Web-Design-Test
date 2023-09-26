@@ -1,6 +1,6 @@
 body {
         background-color: red;
-        display: block;
+        width: 100%;
     }
 
 @media only screen and (min-width: 300px) {
@@ -9,6 +9,9 @@ body {
         font-size: 30px;
         display: inline-block;
         flex-direction: column;
+    }
+    .col-1, .col-2 {
+        width: 33%;
     }
 }
 
@@ -19,4 +22,5 @@ body {
         display: inline-block;
         flex-direction: column;
     }
+
 }
